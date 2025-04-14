@@ -1,0 +1,50 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+*
+# Ignore all files
+*
+
+# But not these:
+!.gitignore
+!*.py
+!*.txt
+
+# Ignore virtual environments
+venv/
+env/
+ENV/
+chatbot/Lib/
+chatbot/Include/
+chatbot/Scripts/
+
+# Ignore bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
+
+# Ignore editor settings
+.vscode/
+.idea/
+
+# Ignore data and models
+*.h5
+*.pkl
+*.pb
+*.tflite
+*.ckpt
+
+# Ignore builds
+build/
+dist/
+*.spec
+
+# Ignore coverage and test cache
+.cache/
+coverage/
+htmlcov/
